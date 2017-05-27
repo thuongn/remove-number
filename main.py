@@ -1,6 +1,6 @@
 import os, glob
 
-os.chdi("/alphabet")
+os.chdir("alphabet")
 
 for file in glob.glob("*.jpg"):
     print (file)
